@@ -1,0 +1,47 @@
+.editor-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.upload-button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.upload-button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.image-crop {
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+.cropped-image {
+  margin-top: 10px;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.save-button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.save-button:hover {
+  background-color: #0056b3;
+}
